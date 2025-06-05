@@ -90,7 +90,6 @@ li a{
     padding: 20px 40px;
     border: none;
     border-radius: 22px;
-    font-weight: semi-bold;
     background-color: #C271FF;
     display: block;
     margin: 30px auto;
@@ -153,7 +152,7 @@ li a{
 }
 
 .popular-tutorials{
-    padding: 70px;
+    padding: 50px;
     background-color: #ffffff;
     color: #071629;
     display: flex;
@@ -249,5 +248,32 @@ li a{
 .free-membership{
     color: #ffffff;
     background-color: #071629;
-    padding: 100px 0;
+    padding: 70px 0;
+}
+
+
+
+.free-membership-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.free-membership-text{
+    padding: 30px;
+    width: 100%;
+    height: auto;
+}
+
+.free-membership button{
+    padding: 20px 40px;
+    border: none;
+    border-radius: 22px;
+    background-color: #C271FF;
+    color: #ffffff;
+    font-size: 14px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
 }
