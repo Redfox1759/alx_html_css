@@ -1,6 +1,8 @@
 @font-face {
-    font-family: 'Source-Sans-Pro';
-    src: url(./source-sans-pro/SourceSansPro-Regular.otf) format('otf');
+  font-family: 'Source-Sans-Pro';
+  src: url('./source-sans-pro/SourceSansPro-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 * {
@@ -69,7 +71,7 @@ li a{
 }
 
 .hero-text h1{
-    font-size: 120px;
+    font-size: 150px;
     margin-bottom: 10px;
     font-weight: bold;
     font-weight: 900;
@@ -278,21 +280,67 @@ li a{
     margin-top: 20px;
 }
 
+
 .faq{
-    padding: 50px;
+    padding: 20px;
     background-color: #ffffff;
     color: #071629;
     font-weight: light;
-    
+    height: max-content;
+}
+.faq h2{
+    font-weight: lighter;
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 300;
 }
 
 .faq-container{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px;
+    
+}
+
+.faq-column{
+    width:36%;
+    text-align: left;
+    margin: 10px;
+    
+}
+
+.faq-text-title{
+    margin-bottom: 20px; 
+    justify-content: left;
+}
+
+.faq-text-content{
+    margin-bottom: 20px; 
+    color: rgba(0, 0, 0, 0.5);
+}
+
+footer{
+    background-color: #071629;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-    boorder: 6px solid #071629;
-    flex-wrap: nowrap;
-    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+footer p{
+    color: rgba(255, 255, 255, 0.352);
 }
