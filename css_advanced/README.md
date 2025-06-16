@@ -48,7 +48,9 @@ Here is a breakdown of the main parts of the website:
 
 ## 📷 Screenshot
 
-![SmileSchool Homepage](./70e89361-4463-466e-bb7f-b15164a591e4.png)
+![SmileSchool Homepage]
+<img width="203" alt="Screenshot 2025-06-09 at 10 35 27" src="https://github.com/user-attachments/assets/ffe064d0-98fa-4d12-b1ae-9d76e0cc82e6" />
+
 
 ## 📁 How to Use
 
