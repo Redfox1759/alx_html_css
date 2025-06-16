@@ -161,8 +161,8 @@ button:active {
 }
 
 /* responsiveness */
-@media (max-width: 480px) {
-    
+@media screen and (max-width: 480px)  {
+
   header {
     flex-direction: column;
     text-align: center;
