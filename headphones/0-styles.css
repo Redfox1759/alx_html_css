@@ -137,6 +137,7 @@ main section button{
   border-radius: 22px;
   width: 162px;
   height: 44px;
+  border: none;
 
 }
 
@@ -528,8 +529,105 @@ button:active {
 
 }
 
+.contact-us{
+  position: absolute;
+  width: 335px;
+  height: 373px;
+  left: 533px;
+  top: 2254px;;
 
+}
 
+.contact-us h2{
+
+  position: absolute;
+  height: 40px;
+  left: 28.06%;
+  right: 28.36%;
+  top: calc(50% - 40px/2 - 166.5px);
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 31px;
+  line-height: 40px;
+  text-align: center;
+  color: #071629;
+  /* padding: 0 20px; */
+
+}
+
+.name-input{/* input_1 */
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 25.74%;
+  bottom: 66.49%;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.email-input{
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 45.58%;
+  bottom: 46.65%;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+
+}
+
+.message-input{
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 65.42%;
+  bottom: 26.81%;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+
+}
+
+.btn{
+
+  position: absolute;
+  left: 25.67%;
+  right: 25.97%;
+  top: 88.2%;
+  bottom: 0%;
+  border: none;
+
+}
+
+footer{
+  
+  position: absolute;
+  width: 1400px;
+  height: 249px;
+  left: 0px;
+  top: 2757px;
+  background-color: #071629;
+  display: flex;
+
+}
+
+.footer-item{
+
+  margin: auto;
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;  
+  padding: 0 20px;
+  height: 31px;
+
+}
 
 
 
