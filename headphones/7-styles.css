@@ -352,10 +352,15 @@ button:active {
   right: 71.64%;
   top: 58.62%;
   bottom: 12.15%;
-  /* background: url('./assets/images/pentagone.png') no-repeat  center; */
+  background: url('./assets/images/pentagone.png') no-repeat  center;
   background-size: cover;
   width: 200px;
   
+}
+
+.result-item1:hover{
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
 }
 
 .result-item2{
@@ -369,7 +374,11 @@ button:active {
   background-size: cover;
   width: 200px;
   
+}
 
+.result-item2:hover{
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
 }
 
 .result-item3{
@@ -385,6 +394,11 @@ button:active {
 
 }
 
+.result-item3:hover{
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
 .result-item4{
 
   position: absolute;
@@ -396,6 +410,11 @@ button:active {
   background-size: cover;
   width: 200px;
 
+}
+
+.result-item4:hover{
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
 }
 
 .result-item1 h2{
